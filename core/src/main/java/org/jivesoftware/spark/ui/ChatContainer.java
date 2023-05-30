@@ -136,7 +136,7 @@ public class ChatContainer extends SparkTabbedPane implements MessageListener, C
             }
         });
 
-        setCloseButtonEnabled(true);
+        setCloseButtonEnabled(false);
 
         // Add Key Navigation
         addKeyNavigation();
